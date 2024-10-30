@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix</title>
+</head>
+<body>
+<div style="background-image: url('https://genotipia.com/wp-content/uploads/2020/04/Netflix-Background-prueba-1.jpg'); height:100vh;overflow: hidden;background-size: cover; background-repeat: no-repeat; background-position: center; position: relative;">
+    <div style="background-color: black; opacity:0.7; height:100vh; width: 100%; position: absolute; top: 0; left: 0;"></div>
+    <div style="display: flex; justify-content: space-between; align-items: center; position: relative; padding: 20px; z-index: 1;">
+        <img src="https://www.pinclipart.com/picdir/big/2-23236_transparent-netflix-logo-2018-clipart.png" style="height: 40px;margin-left:50px;">
+        <div>
+            <select style="background-color:black; color:white; height:30px; width:70px; margin-left:100px;">
+                <option>Telugu</option>
+                <option>Hindi</option>
+                <option>English</option>
+                <option>Spanish</option>
+                <option>Korean</option>
+            </select>
+            <button style="background-color:red; border:none; color:white; height:30px; width:70px; margin-right:100px;">Sign In</button>
+        </div>
+    </div>
+    <div style="height:100vh; display:flex; justify-content: center; align-items: center; position: relative;margin-top: -70px;">
+        <div>
+            <p style="text-align: center;color:white;font-family:sans-serif;font-weight:800;font-size:35px;margin-bottom:5px;">Unlimited movies,TV shows<br>and more</p>
+            <p style="text-align: center;color:white;font-size:20px;font-weight:500;">Starts at ₹149. Cancel at any time.</p>
+            <p style="text-align: center;color:white;font-size:20px;font-weight:500;margin-bottom:5px;">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div style="text-align: center;font-family:sans-serif;margin-top: 20px;">
+                <input type="email" placeholder="Email Address" style="padding:8px; font-size:18px; width:250px; margin-right:10px;background-color:black;border-radius:4px;">
+                <button style="background-color:red; border:none;margin-right:5px;border-radius:5px; color:white;padding-top:15px;padding-bottom:15px; padding-left:10px;padding-right:25px;font-weight:bold;font-size:14px;">Get Started ></button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
